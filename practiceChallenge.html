@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice challenge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-5xl text-center">practice challenge-2</h1>
+    <section
+      class="w-1/2 mx-auto rounded grid grid-cols-2 mt-10 bg-violet-100 p-5"
+    >
+      <div>
+        <p>Product:-Mobile</p>
+        <p class="my-3">price:- $<span id="mobile-price"> 1500 </span></p>
+        <button
+          id="buy-with-discount"
+          class="px-5 hover:bg-blue-800 py-2 bg-blue-300 text-white rounded"
+        >
+          buy now width discount
+        </button>
+      </div>
+      <div class="grid grid-cols-2 gap-2">
+        <button
+          id="payable-price"
+          class="px-5 text-2xl hover:bg-red-800 py-2 bg-red-300 text-white rounded"
+        >
+          Payable-Price
+        </button>
+        <textarea
+          class="rounded"
+          id="payable-price-total"
+          cols="30"
+          placeholder="Please Pay This Tk"
+        ></textarea>
+      </div>
+    </section>
+    <script src="js/practceChallenge.js"></script>
+  </body>
+</html>
